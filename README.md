@@ -18,7 +18,8 @@ Plugin: No external plugins are required; the study utilizes native ImageJ "Scal
 Data: 8-bit or 16-bit TIFF stacks representing the pore space.
 
 # 3. How to Use (Step-by-Step)
-Load the Image: Open your original 3D stack in ImageJ (File > Open).
+## Reascaling the samples
+Load the Image stacks: Open your original 3D stack in ImageJ (File > Open).
 Access Scaling Tool: Go to Image > Scale...
 Configure Parameters:
 X, Y, and Z Scales: Enter the desired Resampling Factor (e.g., 0.5 for 50% or 0.1 for 10%).
@@ -38,5 +39,5 @@ When correctly executed, your ImageJ interface and resulting data should align w
 (Reference: Figure 7 from Silva et al., 2026, showing the transition from functional resolution to numerical occlusion as the Resampling Factor decreases.)
 
 # 5. Contact
-For questions regarding the methodology or data, please contact: Daiane Francisca do Nascimento Silva Universidade Federal de Pernambuco, Brazil
+For questions regarding the methodology or data, please contact: Daiane Francisca do Nascimento Silva
 Email: daiane.francisca@ufpe.br 
