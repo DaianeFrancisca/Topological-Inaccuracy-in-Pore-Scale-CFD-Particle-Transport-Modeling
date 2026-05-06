@@ -13,7 +13,7 @@ Bilinear/Trilinear
 Bicubic/Tricubic
 
 # 2. ImageJ Setup & Requirements
-Software: ImageJ (v1.53 or higher) or FIJI (https://imagej.net/ij/). 
+Software: ImageJ (https://imagej.net/ij/) or FIJI (https://imagej.net/software/fiji/downloads). 
 Plugin: No external plugins are required; the study utilizes native ImageJ "Scale" functions.
 Data: 8-bit or 16-bit TIFF stacks representing the pore space.
 
