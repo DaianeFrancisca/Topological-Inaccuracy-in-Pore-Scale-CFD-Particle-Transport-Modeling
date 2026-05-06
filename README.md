@@ -48,7 +48,7 @@ When correctly executed, your ImageJ interface and resulting data should align w
 ## Checking the Rescaling' Influence
 To replicate the accuracy tests shown in the manuscript (specifically for trilinear interpolation):
 Baseline: Keep the original image at RF 1.0.
-Execution: Run the scaling process on the original stack using RF 0.5, 0.33, 0.25, 0.2, 0.17, 0.17, 0.125, 0.11 and 0.1, selecting a different interpolation method trilinear each time (please, note that the softare firstly apply only to x and y axes, resulting in a bilinear transformation. So you have to adjust manually  to the z-axis).
+Execution: Run the scaling process on the original stack using RF 0.5, 0.33, 0.25, 0.2, 0.17, 0.14, 0.125, 0.11 and 0.1, selecting a different interpolation method trilinear each time (please, note that the softare firstly apply only to x and y axes, resulting in a bilinear transformation. So you have to adjust manually  to the z-axis).
 Comparison: * Measure the Mean Pore Diameter and Connected Porosity.
 Compare the resampled results against the RF 1.0 baseline.
 Threshold Check: Verify if the pore throats remain above the 3-voxel threshold. If a throat is reduced below 3 voxels, numerical occlusion (hydraulic collapse) is expected.
