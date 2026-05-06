@@ -19,7 +19,8 @@ Data: 8-bit or 16-bit TIFF stacks representing the pore space.
 
 # 3. How to Use 
 ## Rescaling the samples
-Load the Image stacks: Open your original 3D stack in ImageJ (File > Open).
+Load the Image stacks: Open your original stacks in ImageJ (File > Open).
+Binarize the Image stacks: Go to Image > Adjust > Threshold > Otsu > Apply (make sure that the box "Dark Backgroung" is selected)
 Access Scaling Tool: Go to Image > Scale...
 Configure Parameters:
 X, Y, and Z Scales: Enter the desired Resampling Factor (e.g., 0.5 for 50% or 0.1 for 10%).
