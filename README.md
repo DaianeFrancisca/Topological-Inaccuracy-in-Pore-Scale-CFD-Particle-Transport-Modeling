@@ -62,5 +62,8 @@ on coarse-grained vs. fine-grained samples, highlighting the increased vulnerabi
 to digital information loss at low RF.)
 
 # 5. Contact
+At the main brench is availabe all the first slices from some tests.
 For questions regarding the methodology or data, please contact: Daiane Francisca do Nascimento Silva
 Email: daiane.francisca@ufpe.br 
+
+
